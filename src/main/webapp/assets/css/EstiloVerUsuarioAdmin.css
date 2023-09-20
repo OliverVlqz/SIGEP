@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url(../img/Fondo.png);
+    background-size: cover;
+    color: #ffffff;
+}
+.nav{
+    height: 300px;
+}
+.container-fluid{
+    border-radius: 5px;
+    background-color: #0A3644;
+    color: white ;
+    position: absolute;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px;
+    background-color: #fff;
+    color: #0000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    color: black;
+}
+
+th {
+    background-color: #0A3644;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #0000;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+.btn btn-outline-success{
+    background-color: #7FFFD4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.a {
+    text-decoration: none;
+}
+.cosas{
+    display: flex;
+    width: 100%;
+}
+.bus{
+    background-color: #fff;
+    display: block;
+    margin: 30px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.latabla{
+    width: 70%;
+}
+.btns{
+    border-radius: 5px;
+    color:#000;
+    background-color: #5E6263;
+}
+

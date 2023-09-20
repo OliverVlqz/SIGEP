@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+h1 {
+  font-family: lemon;
+  text-align: center;
+  color: #fff;
+}
+
+p{
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #0A3644;
+  padding: 20px;
+  color: white;
+  border-radius: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.highlight-button {
+  background-color: #f7c32d;
+}
+
+.highlight-button:hover {
+  background-color: #f0b70b;
+}
+
+
+.container-Usuario {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container-SuperAdmi {
+  text-align: left;
+  display: flex;
+  justify-content: left;
+}
+
+.container-Administrador {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+
+.col {
+  background-color:#0A3644;
+
+}

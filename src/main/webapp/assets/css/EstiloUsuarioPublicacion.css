@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    color: #000;
+}
+
+.nav{
+    height: 300px;
+}
+.container-fluid{
+    border-radius: 5px;
+    background-color: #0A3644;
+    color: wheat;
+    position: fixed;
+}
+.cosas{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+}
+.publis{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #ddd;
+    width: 70%;
+    margin-top:30px ;
+    margin-left: 30px;
+}
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border:2px solid black;
+}
+.bt{
+    background-color: #0A3644;
+    color: #fff;
+    border-radius:5px ;
+}
+.delbtn{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: black;
+    width: 100%;
+    height: 470px;
+}
+.usu{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+}
+i{
+    font-size: 25px;
+}
+
+#commentInput{
+    width: 100%;
+}
+.hr{
+    display: flex;
+    margin-left: 15px;
+    color: #000;
+}
+.lahr{
+    margin-left: 15px;
+}
+.lapubli{
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+    color: #000;
+}
+.laimgpublicacion{
+   width: 70%;       /* Ajusta el ancho al 100% del contenedor */
+    height: auto;      /* Ajusta el alto al 100% del contenedor */
+    object-fit: contain; /* La imagen se ajustará al contenedor sin recortarse */
+    display: block;      /* Elimina cualquier espacio extra alrededor de la imagen */
+}
+
+.laimgpublicacion img{
+   width: auto;       /* Ajusta el ancho al 100% del contenedor */
+    height: 60%;      /* Mantiene la relación de aspecto de la imagen */
+    display: block;    /* Esto elimina cualquier espacio extra alrededor de la imagen */
+    object-fit: cover; /* Esto hará que la imagen cubra completamente el contenedor, recortando cualquier exceso */
+}
+.laimg{
+    width: 100%;       /* Ajusta el ancho al 100% del contenedor */
+    height: 100%;      /* Ajusta el alto al 100% del contenedor */
+    object-fit: contain; /* La imagen se ajustará al contenedor sin recortarse */
+    display: block;      /* Elimina cualquier espacio extra alrededor de la imagen */
+}
+.com{
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 91%;
+    margin-bottom: 7px;
+    overflow-y:scroll;
+    margin-top: -2px;
+}
+#comments {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.comment {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: auto; 
+    max-height: 150px; 
+}
+.response {
+    margin-left: 20px;
+    border-left: 1px solid #ccc;
+}
+.brcom{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #ccc;
+    height:8%;
+    display: flex;
+    padding: 5px;
+}
+.palcom{
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 20px;
+} 
