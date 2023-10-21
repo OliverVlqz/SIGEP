@@ -9,7 +9,7 @@ import logica.Comentario;
 import logica.Publicacion;
 import logica.Usuario;
 
-@Generated(value="EclipseLink-2.7.12.v20230209-rNA", date="2023-09-12T12:10:25")
+@Generated(value="EclipseLink-2.7.12.v20230209-rNA", date="2023-10-20T20:36:45")
 @StaticMetamodel(Comentario.class)
 public class Comentario_ { 
 
